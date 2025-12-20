@@ -88,7 +88,7 @@ async def analyze_server(interaction: discord.Interaction):
         channel_list += "\n**Uncategorized:**\n"
         for channel in uncategorized:
             if isinstance(channel, discord.TextChannel):
-                channel_list += f"  💬 {channel.mention}\n"
+                channel_list += f"   {channel.mention}\n"
             elif isinstance(channel, discord.VoiceChannel):
                 channel_list += f"   {channel.name}\n"
     
