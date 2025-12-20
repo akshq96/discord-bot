@@ -78,7 +78,7 @@ async def analyze_server(interaction: discord.Interaction):
         channel_list += f"\n📁 **{category.name}**\n"
         for channel in sorted(category.channels, key=lambda x: x.position):
             if isinstance(channel, discord.TextChannel):
-                channel_list += f"  💬 {channel.mention} ({channel.topic or 'No topic'})\n"
+                channel_list += f"   {channel.mention} ({channel.topic or 'No topic'})\n"
             elif isinstance(channel, discord.VoiceChannel):
                 channel_list += f"  🔊 {channel.name}\n"
     
