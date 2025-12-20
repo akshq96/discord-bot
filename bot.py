@@ -321,5 +321,5 @@ if __name__ == "__main__":
         print("Error: DISCORD_BOT_TOKEN not found in environment variables!")
         print("Please create a .env file with: DISCORD_BOT_TOKEN=your_token_here")
     else:
-        bot.run(token)
+        bot.run(token) 
 
