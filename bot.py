@@ -90,7 +90,7 @@ async def analyze_server(interaction: discord.Interaction):
             if isinstance(channel, discord.TextChannel):
                 channel_list += f"  💬 {channel.mention}\n"
             elif isinstance(channel, discord.VoiceChannel):
-                channel_list += f"  🔊 {channel.name}\n"
+                channel_list += f"   {channel.name}\n"
     
     if len(channel_list) > 2000:
         # Split into multiple messages if too long
