@@ -243,9 +243,9 @@ async def scrape_user_messages(
             content = "[No text content]"
         sample_text += f"{i}. [{timestamp}] {content}\n"
         if msg["attachments"] > 0:
-            sample_text += f"   📎 {msg['attachments']} attachment(s)\n"
+            sample_text += f"    {msg['attachments']} attachment(s)\n"
         if msg["reactions"] > 0:
-            sample_text += f"   ❤️ {msg['reactions']} reaction(s)\n"
+            sample_text += f"    {msg['reactions']} reaction(s)\n"
         sample_text += "\n"
     
     if len(sample_text) > 2000:
