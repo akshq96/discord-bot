@@ -141,7 +141,7 @@ All scraped data can be exported to JSON files. The script will prompt you to sa
 - Check your internet connection.
 - Discord may require CAPTCHA - complete it manually in the browser
 
-**Elements not found:**
+**Elements not found**
 - Discord's web interface changes frequently
 - The script may need updates if Discord changes their HTML structure
 - Try waiting a bit longer for pages to load
