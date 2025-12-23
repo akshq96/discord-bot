@@ -151,7 +151,7 @@ All scraped data can be exported to JSON files. The script will prompt you to sa
 - Some channels may have restrictions
 - Try scrolling manually in the browser to load more messages
 
-**Browser closes unexpectedly:**
+**Browser closes unexpectedly**
 - Check Chrome is up to date
 - Try running without headless mode (set `headless=False` in the script)
 - Check system resources (memory, CPU)
