@@ -179,9 +179,6 @@ If Discord updates their interface and selectors break, you can modify the CSS s
 - Discord's interface changes may break functionality
 - Rate limiting may occur with excessive use
 
-## License
-
-This project is open source and available for modification and distribution.
 
 ## Disclaimer
 
