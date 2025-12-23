@@ -146,7 +146,7 @@ All scraped data can be exported to JSON files. The script will prompt you to sa
 - The script may need updates if Discord changes their HTML structure
 - Try waiting a bit longer for pages to load
 
-**Messages not scraping:**
+**Messages not scraping**
 - Make sure you're in a text channel
 - Some channels may have restrictions
 - Try scrolling manually in the browser to load more messages
