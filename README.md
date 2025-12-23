@@ -135,7 +135,7 @@ All scraped data can be exported to JSON files. The script will prompt you to sa
 - Make sure you have Google Chrome installed
 - If issues persist, try updating Chrome to the latest version
 
-**Login fails:**
+**Login fails**
 - Check your credentials are correct
 - Make sure 2FA is entered manually if required
 - Check your internet connection.
