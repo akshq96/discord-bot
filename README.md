@@ -130,7 +130,7 @@ All scraped data can be exported to JSON files. The script will prompt you to sa
 
 ## Troubleshooting
 
-**ChromeDriver issues:**
+**ChromeDriver issues**
 - The script automatically downloads the correct ChromeDriver version
 - Make sure you have Google Chrome installed
 - If issues persist, try updating Chrome to the latest version
