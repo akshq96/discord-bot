@@ -76,7 +76,7 @@ When you run the script, you'll see an interactive menu with the following optio
 
 #### Channel Statistics
 - Channel name
-- Message count (analyzes up to 100 messages)
+- Message count
 - Unique authors
 - Total attachments and reactions
 
