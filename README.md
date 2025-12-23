@@ -138,7 +138,7 @@ All scraped data can be exported to JSON files. The script will prompt you to sa
 **Login fails:**
 - Check your credentials are correct
 - Make sure 2FA is entered manually if required
-- Check your internet connection
+- Check your internet connection.
 - Discord may require CAPTCHA - complete it manually in the browser
 
 **Elements not found:**
