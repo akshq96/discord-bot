@@ -160,7 +160,7 @@ All scraped data can be exported to JSON files. The script will prompt you to sa
 
 ### Headless Mode
 
-To run the browser in headless mode (no visible window), modify the script:
+To run the browser in headless mode, modify the script:
 
 ```python
 scraper = DiscordScraper(headless=True)
