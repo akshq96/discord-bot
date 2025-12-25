@@ -201,7 +201,7 @@ class DiscordScraper:
         messages_data = []
         
         try:
-            # Scroll up to load more messages
+            # Scroll up to load more messages...
             message_area = WebDriverWait(self.driver, 10).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, '[class*="messages"], [class*="messageList"]'))
             )
