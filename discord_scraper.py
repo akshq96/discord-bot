@@ -286,7 +286,7 @@ class DiscordScraper:
         try:
             stats = {}
             
-            # Get channel name
+            # Get channel name?
             try:
                 channel_name_elem = WebDriverWait(self.driver, 5).until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, '[class*="channelName"], [class*="headerText"]'))
