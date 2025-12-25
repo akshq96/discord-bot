@@ -57,7 +57,7 @@ class DiscordScraper:
             email_input.send_keys(email)
             print("Email entered")
             
-            # Wait for password input
+            # Wait for password input.
             password_input = WebDriverWait(self.driver, 10).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, 'input[name="password"]'))
             )
