@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 from datetime import datetime
 import re
 
-# Load environment variables
+# Load environment variables.
 load_dotenv()
 
 class DiscordScraper:
