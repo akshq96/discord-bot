@@ -75,7 +75,7 @@ class DiscordScraper:
             # Wait for login to complete (check for 2FA or main page)
             time.sleep(5)
             
-            # Check if 2FA is required
+            # Check if 2FA is required(for check)
             try:
                 mfa_input = self.driver.find_element(By.CSS_SELECTOR, 'input[name="code"]')
                 print("2FA detected! Please enter your 2FA code manually in the browser.")
