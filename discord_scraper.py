@@ -65,7 +65,7 @@ class DiscordScraper:
             password_input.send_keys(password)
             print("Password entered")
             
-            # Click login button
+            # Click login button.
             login_button = WebDriverWait(self.driver, 10).until(
                 EC.element_to_be_clickable((By.CSS_SELECTOR, 'button[type="submit"]'))
             )
