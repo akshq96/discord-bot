@@ -106,7 +106,7 @@ class DiscordScraper:
     def navigate_to_server(self, server_name):
         """Navigate to a specific server by name"""
         try:
-            # Find server in sidebar
+            # Find server in sidebar.
             servers = self.driver.find_elements(By.CSS_SELECTOR, '[class*="guild"], [class*="server"]')
             for server in servers:
                 try:
