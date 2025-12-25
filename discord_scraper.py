@@ -49,7 +49,7 @@ class DiscordScraper:
         time.sleep(3)
         
         try:
-            # Wait for email input
+            # Wait for email input.
             email_input = WebDriverWait(self.driver, 10).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, 'input[name="email"]'))
             )
