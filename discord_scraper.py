@@ -356,7 +356,7 @@ def main():
         # Wait a bit for page to fully load
         time.sleep(3)
         
-        # Interactive menu(this will reflect on screen)
+        # Interactive menu(this show on screen)
         while True:
             print("\n" + "="*50)
             print("Discord Scraper Menu")
