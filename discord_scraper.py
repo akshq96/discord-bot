@@ -87,7 +87,7 @@ class DiscordScraper:
             except (NoSuchElementException, TimeoutException):
                 pass
             
-            # Wait for main Discord page to load
+            # Wait for main Discord page to load(wait hereee)
             WebDriverWait(self.driver, 30).until(
                 lambda d: "channels" in d.current_url or d.find_elements(By.CSS_SELECTOR, '[class*="guild"]')
             )
