@@ -207,7 +207,7 @@ class DiscordScraper:
             )
             
             # Scroll up to load messages
-            for _ in range(min(limit // 10, 5)):  # Scroll a few times
+            for _ in range(min(limit // 10, 5)):  # Scroll a few times (not necessary)
                 self.driver.execute_script("arguments[0].scrollTop = 0", message_area)
                 time.sleep(1)
             
