@@ -218,7 +218,7 @@ class DiscordScraper:
             
             for msg_elem in message_elements[:limit]:
                 try:
-                    # Get username
+                    # Get username.
                     username_elem = msg_elem.find_element(By.CSS_SELECTOR, '[class*="username"], [class*="author"]')
                     username = username_elem.text if username_elem else "Unknown"
                     
