@@ -213,7 +213,7 @@ class DiscordScraper:
             
             time.sleep(2)
             
-            # Find all message elements
+            # Find all message elements.
             message_elements = self.driver.find_elements(By.CSS_SELECTOR, '[class*="message"], [class*="messageContent"]')
             
             for msg_elem in message_elements[:limit]:
