@@ -157,7 +157,7 @@ class DiscordScraper:
             channels = self.driver.find_elements(By.CSS_SELECTOR, '[class*="channel"], [class*="channelName"]')
             server_data["channel_count"] = len(channels)
             
-            # Get channel list
+            # Get channel list..
             channel_list = []
             for channel in channels[:50]:  # Limit to first 50.
                 try:
