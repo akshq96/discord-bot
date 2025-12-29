@@ -72,7 +72,7 @@ class DiscordScraper:
             login_button.click()
             print("Login button clicked")
             
-            # Wait for login to complete (check for 2FA or main page)
+            # Wait for login to complete (check for 2FA or main page).
             time.sleep(5)
             
             # Check if 2FA is required(for checking)
