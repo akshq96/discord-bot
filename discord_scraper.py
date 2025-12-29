@@ -119,7 +119,7 @@ class DiscordScraper:
                 except:
                     continue
             
-            # Alternative: try clicking by tooltip
+            # Alternative: try clicking by tooltip.
             server_elements = self.driver.find_elements(By.CSS_SELECTOR, '[class*="guildIcon"], [class*="serverIcon"]')
             for element in server_elements:
                 try:
