@@ -159,7 +159,7 @@ class DiscordScraper:
             
             # Get channel list
             channel_list = []
-            for channel in channels[:50]:  # Limit to first 50
+            for channel in channels[:50]:  # Limit to first 50.
                 try:
                     channel_name = channel.text
                     if channel_name:
