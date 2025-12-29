@@ -144,7 +144,7 @@ class DiscordScraper:
         try:
             server_data = {}
             
-            # Get server name from header
+            # Get server name from header.
             try:
                 server_name_elem = WebDriverWait(self.driver, 5).until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, '[class*="headerText"], [class*="serverName"]'))
