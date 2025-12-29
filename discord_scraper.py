@@ -80,7 +80,7 @@ class DiscordScraper:
                 mfa_input = self.driver.find_element(By.CSS_SELECTOR, 'input[name="code"]')
                 print("2FA detected! Please enter your 2FA code manually in the browser.")
                 print("Waiting for manual 2FA entry...")
-                # Wait up to 5 minutes for manual 2FA entry
+                # Wait up to 5 minutes for manual 2FA entry.
                 WebDriverWait(self.driver, 300).until(
                     lambda d: "channels" in d.current_url or "login" not in d.current_url
                 )
