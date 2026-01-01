@@ -17,7 +17,7 @@ A powerful Discord web scraper that uses Selenium to analyze server structure, c
 - Google Chrome browser installed
 - Discord account credentials
 
-## Installation
+## Installation 
 
 ### 1. Install Dependencies
 
