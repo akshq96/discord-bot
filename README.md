@@ -1,4 +1,4 @@
-# Discord Server Analyzer - (Selenium Web Scraper)
+# Discord Server Analyzer - Selenium Web Scraper
 
 A powerful Discord web scraper that uses Selenium to analyze server structure, channels, and user data. No bot token required - just your login credentials!
 
